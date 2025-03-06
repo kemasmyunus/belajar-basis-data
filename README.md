@@ -78,3 +78,13 @@ Normalisasi adalah proses pengorganisasian data untuk mengurangi redundansi dan 
 - **Autentikasi dan Otorisasi:** Menentukan siapa yang dapat mengakses database.
 - **Backup dan Recovery:** Mencegah kehilangan data dengan membuat cadangan.
 - **Enkripsi Data:** Melindungi data dari akses yang tidak sah.
+
+## 7. Studi Kasus
+- **Membangun Sistem Akademik Sederhana:**
+  - Tabel Mahasiswa
+  - Tabel Mata Kuliah
+  - Tabel Nilai
+- **Menganalisis Data dengan Query SQL**
+
+## 8. Penutup
+Pemahaman basis data sangat penting dalam dunia teknologi informasi. Menguasai SQL dan konsep normalisasi akan membantu dalam membangun sistem yang efisien dan andal.
