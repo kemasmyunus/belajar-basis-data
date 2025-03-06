@@ -63,3 +63,18 @@ Normalisasi adalah proses pengorganisasian data untuk mengurangi redundansi dan 
 - **1NF (First Normal Form):** Setiap kolom hanya memiliki satu nilai (atomicity).
 - **2NF (Second Normal Form):** 1NF + Semua kolom non-kunci harus bergantung pada primary key.
 - **3NF (Third Normal Form):** 2NF + Tidak ada ketergantungan transitif pada primary key.
+
+## 5. Indeks dan Optimasi Query
+- **Indeks** membantu mempercepat pencarian data.
+  ```sql
+  CREATE INDEX idx_nama ON mahasiswa(nama);
+  ```
+- **Optimasi Query** bertujuan meningkatkan performa database, misalnya dengan menggunakan `EXPLAIN` untuk menganalisis query.
+  ```sql
+  EXPLAIN SELECT * FROM mahasiswa WHERE nama='Budi';
+  ```
+
+## 6. Keamanan Basis Data
+- **Autentikasi dan Otorisasi:** Menentukan siapa yang dapat mengakses database.
+- **Backup dan Recovery:** Mencegah kehilangan data dengan membuat cadangan.
+- **Enkripsi Data:** Melindungi data dari akses yang tidak sah.
