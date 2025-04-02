@@ -52,3 +52,14 @@ Normalisasi adalah proses untuk mengurangi redundansi data dalam database.
 - **2NF**: Memastikan setiap atribut bergantung pada primary key.
 - **3NF**: Menghilangkan ketergantungan transitif.
 - **BCNF**: Versi lebih ketat dari 3NF.
+
+## 7. Transaksi dan ACID
+**ACID (Atomicity, Consistency, Isolation, Durability)** adalah sifat utama dalam sistem basis data.
+- **Atomicity**: Transaksi harus dilakukan sepenuhnya atau tidak sama sekali.
+- **Consistency**: Data tetap dalam kondisi valid sebelum dan sesudah transaksi.
+- **Isolation**: Transaksi tidak boleh mengganggu transaksi lain.
+- **Durability**: Hasil transaksi tetap tersimpan meskipun terjadi kegagalan sistem.
+
+## 8. Indexing dan Optimasi Query
+- **Indexing**: Meningkatkan kecepatan pencarian data.
+- **Query Optimization**: Teknik untuk meningkatkan efisiensi eksekusi query.
