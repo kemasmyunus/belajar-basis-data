@@ -29,3 +29,26 @@ Basis data (database) adalah kumpulan data yang terorganisir dengan baik dan dap
   - **Foreign Key**: Menghubungkan tabel yang satu dengan lainnya.
 - **Index**: Mempercepat pencarian data.
 - **View**: Tampilan virtual dari tabel.
+
+## 5. Bahasa Basis Data (SQL)
+### 5.1 Data Definition Language (DDL)
+- `CREATE TABLE` → Membuat tabel baru.
+- `ALTER TABLE` → Mengubah struktur tabel.
+- `DROP TABLE` → Menghapus tabel.
+
+### 5.2 Data Manipulation Language (DML)
+- `INSERT INTO` → Menambahkan data.
+- `UPDATE` → Mengubah data.
+- `DELETE` → Menghapus data.
+- `SELECT` → Mengambil data.
+
+### 5.3 Data Control Language (DCL)
+- `GRANT` → Memberikan hak akses.
+- `REVOKE` → Mencabut hak akses.
+
+## 6. Normalisasi
+Normalisasi adalah proses untuk mengurangi redundansi data dalam database.
+- **1NF**: Menghapus duplikasi kolom.
+- **2NF**: Memastikan setiap atribut bergantung pada primary key.
+- **3NF**: Menghilangkan ketergantungan transitif.
+- **BCNF**: Versi lebih ketat dari 3NF.
