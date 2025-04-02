@@ -63,3 +63,12 @@ Normalisasi adalah proses untuk mengurangi redundansi data dalam database.
 ## 8. Indexing dan Optimasi Query
 - **Indexing**: Meningkatkan kecepatan pencarian data.
 - **Query Optimization**: Teknik untuk meningkatkan efisiensi eksekusi query.
+
+## 9. Backup dan Recovery
+- **Backup**: Salinan data yang digunakan untuk pemulihan.
+- **Recovery**: Mengembalikan data jika terjadi kegagalan sistem.
+
+## 10. Keamanan Basis Data
+- **Authentication**: Memastikan hanya pengguna yang sah yang bisa mengakses.
+- **Authorization**: Mengontrol hak akses pengguna.
+- **Encryption**: Melindungi data dari akses tidak sah.
