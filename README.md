@@ -72,3 +72,12 @@ Normalisasi adalah proses untuk mengurangi redundansi data dalam database.
 - **Authentication**: Memastikan hanya pengguna yang sah yang bisa mengakses.
 - **Authorization**: Mengontrol hak akses pengguna.
 - **Encryption**: Melindungi data dari akses tidak sah.
+
+## 11. Basis Data Terdistribusi
+Basis data yang disimpan di beberapa lokasi berbeda tetapi tetap dapat diakses sebagai satu kesatuan.
+
+## 12. Big Data dan Basis Data Modern
+- **Hadoop**
+- **Apache Spark**
+- **Google BigQuery**
+- **Amazon Redshift**
