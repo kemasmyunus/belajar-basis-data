@@ -33,3 +33,23 @@
 - **Rumah Sakit**: Menyimpan data pasien, rekam medis, dan jadwal dokter. Dengan database, rumah sakit dapat mengelola informasi pasien dengan lebih efisien dan meningkatkan kualitas perawatan.
 - **Sekolah**: Mengelola data siswa, kurikulum, dan nilai. Database membantu sekolah dalam menyimpan dan mengelola informasi akademik serta administrasi.
 - **E-commerce**: Mengelola produk, transaksi, dan informasi pelanggan. Database memungkinkan platform e-commerce untuk melacak inventaris, memproses pesanan, dan menganalisis perilaku pelanggan.
+
+## Sistem Manajemen Database (DBMS)
+- **DBMS** adalah perangkat lunak yang mengelola database, memungkinkan pengguna untuk berinteraksi dengan data. DBMS menyediakan antarmuka untuk melakukan operasi CRUD dan mengelola struktur data.
+- Contoh DBMS yang populer termasuk:
+  - **MySQL**: Sistem manajemen database open-source yang banyak digunakan untuk aplikasi web.
+  - **PostgreSQL**: DBMS open-source yang dikenal karena kemampuannya dalam menangani data yang kompleks.
+  - **Microsoft SQL Server**: DBMS komersial yang banyak digunakan di perusahaan besar.
+  - **Oracle**: DBMS yang kuat dan banyak digunakan dalam aplikasi enterprise.
+- Komponen DBMS meliputi:
+  - **Hardware**: Perangkat fisik tempat database disimpan, seperti server.
+  - **Operating System**: Sistem operasi yang menjalankan DBMS, seperti Windows atau Linux.
+  - **Users**: Pengguna yang berinteraksi dengan database, termasuk administrator, pengembang, dan pengguna akhir.
+
+## Pemodelan Data
+- **Data modeling** adalah proses mendefinisikan struktur data dan hubungan antar data. Pemodelan data membantu dalam merancang database yang efisien dan efektif.
+- **Entity-Relationship Diagram (ERD)** adalah metode populer untuk pemodelan data yang menggambarkan entitas dan hubungan di antara mereka. ERD membantu dalam visualisasi struktur database.
+
+## Komponen ERD
+- **Entities**: Item data individu yang relevan dalam sistem, seperti pasien, dokter, atau produk. Setiap entitas biasanya direpresentasikan sebagai persegi panjang dalam ERD.
+- **Attributes**: Karakteristik dari entitas, seperti ID pasien, nama, dan
